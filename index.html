@@ -75,11 +75,17 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      flex-shrink: 0;
     }
 
     .icon {
       max-width: 100%;
       max-height: 100%;
+    }
+
+    .label {
+      font-size: 16px;
+      line-height: 1;
     }
   </style>
 </head>
@@ -93,27 +99,31 @@
     <span class="icon-wrapper">
       <img src="icons/wa.png" alt="WhatsApp" class="icon" onerror="this.style.display='none'">
     </span>
-    WhatsApp
+    <span class="label">WhatsApp</span>
   </a>
+
   <a href="https://instagram.com/ferdian.spt" target="_blank" rel="noopener noreferrer">
     <span class="icon-wrapper">
       <img src="icons/ig.png" alt="Instagram" class="icon" onerror="this.style.display='none'">
     </span>
-    Instagram
+    <span class="label">Instagram</span>
   </a>
+
   <a href="https://github.com/ferdianspt" target="_blank" rel="noopener noreferrer">
     <span class="icon-wrapper">
       <img src="icons/github.png" alt="GitHub" class="icon" onerror="this.style.display='none'">
     </span>
-    GitHub
+    <span class="label">GitHub</span>
   </a>
+
   <a href="https://youtube.com/@akunlu" target="_blank" rel="noopener noreferrer">
     <span class="icon-wrapper">
       <img src="icons/yt.png" alt="YouTube" class="icon" onerror="this.style.display='none'">
     </span>
-    YouTube
+    <span class="label">YouTube</span>
   </a>
 
+  <!-- GitHub Stats -->
   <img src="https://github-readme-stats.vercel.app/api?username=ferdianspt&show_icons=true&theme=dark" alt="GitHub Stats" style="margin-top: 30px; max-width: 100%; height: auto;">
 
   <p style="margin-top: 40px; font-size: 12px;">© 2025 Ferdian. Made with ❤️</p>
